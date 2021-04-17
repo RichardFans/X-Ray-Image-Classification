@@ -16,6 +16,7 @@ import numpy as np
 import PIL.Image
 from hub.schema import ClassLabel, Image
 
+# skipcq: PYL-W0105
 """Create a new dataset
 
 |------------|------|
