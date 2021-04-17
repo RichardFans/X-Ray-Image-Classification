@@ -78,7 +78,7 @@ for name, path in folders.items():
                 )
             )
 
-            # Write TF Examples into train set, validation set or test. Based on validation and test ratio
+            # Write TF Examples into splits, based on validation and test ratio
             r = random.random()
             if (
                 count < (int(n * combined_ratio))
