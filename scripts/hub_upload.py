@@ -16,8 +16,7 @@ import numpy as np
 import PIL.Image
 from hub.schema import ClassLabel, Image
 
-"""
-Create a new dataset
+"""Create a new dataset
 
 |------------|------|
 | Split      | #    |
@@ -25,8 +24,7 @@ Create a new dataset
 | Train      | 5216 |
 | Test       | 624  |
 | Validation | 16   |
-|------------|------|
-"""
+|------------|------|"""
 
 
 schema = {
