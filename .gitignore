@@ -129,7 +129,8 @@ dmypy.json
 .pyre/
 
 # Data Directory
-data
+data/chest_xray/
+data/chest_xray.zip
 
 # DS_Store
 .DS_Store
