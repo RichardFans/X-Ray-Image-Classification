@@ -6,9 +6,10 @@ AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 
 class TFRecordsDataset:
-    def __init__(self, image_size: list, batch_size):
+    def __init__(self, image_size: list, batch_size, filenames):
         self.image_size = image_size
         self.batch_size = batch_size
+        self.filenames = filenames
 
     def _decode_image(self, image):
         image = tf.image.decode_jpeg(image, channels=3)
@@ -45,7 +46,7 @@ class TFRecordsDataset:
         return dataset
 
     def get_dataset(self, filenames, labeled=True):
-        dataset = self.load_dataset(filenames, labeled=labeled)
+        dataset = self.load_dataset(self.filenames, labeled=labeled)
         dataset = dataset.shuffle(2048)
         dataset = dataset.prefetch(buffer_size=AUTOTUNE)
         dataset = dataset.batch(self.batch_size)
