@@ -130,6 +130,7 @@ dmypy.json
 
 # Data Directory
 data/chest_xray/
+data/TFRecords.zip
 data/chest_xray.zip
 
 # DS_Store
