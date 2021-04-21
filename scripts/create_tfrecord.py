@@ -10,7 +10,7 @@ folders["train"] = "data/chest_xray/train"
 folders["test"] = "data/chest_xray/test"
 folders["validation"] = "data/chest_xray/val"
 
-IMG_SIZE = [512, 512]
+IMG_SIZE = [224, 224]
 
 validation_ratio = 0.0
 test_ratio = 0.0
