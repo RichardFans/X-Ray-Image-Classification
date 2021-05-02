@@ -6,6 +6,10 @@ Comparative Analysis of Convolutional Neural Networks for X Ray 🩺 Image Analy
 
 A Complete End to End Deep Learning Project, going over Modelling, Ablation Studies, Post-Training Quantization and Deployment using Streamlit and Tensorflow Serving.
 
+| Model Type                           | Total Parameters | Trainable Parameters | Non-Trainable Parameters |
+|--------------------------------------|------------------|----------------------|--------------------------|
+| EfficientNetB0 + Classification Head | 4,059,828        | 10,257               | 4,049,571                |
+
 # Developer Toolkit
 
 ![](https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/Toolkit.png?raw=true)
