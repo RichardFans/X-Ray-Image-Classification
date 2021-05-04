@@ -4,11 +4,20 @@ Comparative Analysis of Convolutional Neural Networks for X Ray 🩺 Image Analy
 
 ![](https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/xray-app.gif?raw=true)
 
+[![hub](https://img.shields.io/badge/powered%20by-hub%20-ff5a1f.svg)](https://github.com/activeloopai/Hub)
+
+
 A Complete End to End Deep Learning Project, going over Modelling, Ablation Studies, Post-Training Quantization and Deployment using Streamlit and Tensorflow Serving.
 
 | Model Type                           | Total Parameters | Trainable Parameters | Non-Trainable Parameters |
 |--------------------------------------|------------------|----------------------|--------------------------|
 | EfficientNetB0 + Classification Head | 4,059,828        | 10,257               | 4,049,571                |
+
+The Data used in this project is available at the [Activeloop platform](https://app.activeloop.ai/) in 3 sub-splits. Each subset can be found at:
+
+* [Training Subset](https://app.activeloop.ai/datasets/explore?tag=sauravmaheshkar%2Fchest_xray_pneumonia_train)
+* [Validation Subset](https://app.activeloop.ai/datasets/explore?tag=sauravmaheshkar%2Fchest_xray_pneumonia_val)
+* [Test Subset](https://app.activeloop.ai/datasets/explore?tag=sauravmaheshkar%2Fchest_xray_pneumonia_test)
 
 # Developer Toolkit
 
