@@ -33,6 +33,33 @@ Weights and Biases client was used for model monitoring, for more details please
 
 ![](https://raw.githubusercontent.com/SauravMaheshkar/X-Ray-Image-Classification/5a29b9fd7cf1f2697866aca38c875d43ee6ec5b0/assets/Validation%20Loss.svg)
 
+# Exploratory Data Analysis
+
+<details> 
+<summary>Label Distribution</summary>
+ <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/label_distribution.png?raw=true'></center>
+</details>
+
+<details> 
+<summary>Ben Graham's Method</summary>
+ <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/bengraham.png?raw=true'></center>
+</details>
+
+<details> 
+<summary>Background Subtraction</summary>
+ <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/bg_sub.png?raw=true'></center>
+</details>
+
+<details> 
+<summary>Fourier Method for Pixel Distribution</summary>
+ <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/fourier.png?raw=true'></center>
+</details>
+
+<details> 
+<summary>Canny Edge Detection</summary>
+ <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/canny.png?raw=true'></center>
+</details>
+
 # Docker Instructions
 
 ```
