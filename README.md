@@ -60,6 +60,12 @@ Weights and Biases client was used for model monitoring, for more details please
  <center><img src = 'https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/eda/canny.png?raw=true'></center>
 </details>
 
+# GradCAM
+
+![](https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/gradcam.png?raw=true)
+
+The Colab Notebook used for obtaining this image can be found in the `notebooks/` folder.
+
 # Docker Instructions
 
 ```
