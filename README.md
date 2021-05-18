@@ -1,6 +1,6 @@
 # 🩺 X-Ray-Image-Classification
 
-Comparative Analysis of Convolutional Neural Networks for X Ray 🩺 Image Analysis.
+Comparative Analysis of Convolutional Neural Networks for X Ray 🩺 Image Analysis. Check out the [Deepnote Kernel](https://deepnote.com/@saurav-maheshkar/X-Ray-Image-Classification-M7ID1ABnTqysUd7USuIaUw) used for modeling and experimentation.
 
 ![](https://github.com/SauravMaheshkar/X-Ray-Image-Classification/blob/main/assets/xray-app.gif?raw=true)
 
